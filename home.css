@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0%;
+  
+}
+
+body{
+    
+background-image:url("1.jpg");
+background-attachment: fixed;
+background-size:cover;
+
+}
+
+
+
+.kreu{
+    border-bottom: 6px solid rgb(219, 218, 224);
+    background-color: rgba(72, 58, 90, 0.817);
+    text-align: center;
+    margin-top: 10px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    width: 80%;
+    margin-left: 10%;
+    color: whitesmoke;}
+
+.a{
+
+
+   
+    background-color: rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 5px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.home{
+
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 150px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    
+}
+ .input{
+    height: 25px;
+    width: 80%;
+}
+.input2{
+
+    height: 25px;
+    width: 6cm;
+    padding-left: 10% ;
+    padding-right:10%;
+
+}
+.input3{
+    height: 25px;
+    width: 50%;
+
+}
+.input4 {
+
+    height: 25px;
+    width: 50%;
+
+}
+.input5{
+    height: 25px;
+    width: 6cm;
+    margin-left: 5cm;
+   
+   
+}
+.input6{
+    height: 25px;
+    width: 6cm;
+    align-items:center;
+    justify-content:center;
+}
+.input7{
+    height: 25px;
+    width: 6cm;
+    align-items:center;
+    justify-content:center;
+}
+.input8{
+    height: 25px;
+    width: 6cm;
+    text-align:center;
+    font-size:18px;
+    font:center;
+  
+}
+.input9 {
+    margin-left:20%;
+    height:25px;
+    width:6cm;
+    text-align:center;
+    font-size:18px;
+    font:center;
+}
+.input10 {
+    margin-left:10%;
+    height:25px;
+    width:6cm;
+    text-align:center;
+    font-size:18px;
+    font:center;
+    align-items:center;
+    justify-content:center;
+    margin-right:20%;
+}
+.mm{
+
+    background-color: rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 15px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.mostra{
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 150px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.asgjesim{
+    background-color:rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 15px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.asgjesim2 {
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.fermat{
+background-color: rgba(18, 39, 135, 0.647);
+text-align: center;
+margin-top: 15px;
+height: 10px;
+text-align: center;
+padding: 1%;
+padding-top: 2px;
+width: 80%;
+margin-left: 10%;
+font-size: larger;
+font-weight: bold;
+color: whitesmoke;
+}
+.fermat2{
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.th{
+    background-color: rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 15px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.th2{
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+}
+.export{
+
+    background-color: rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 15px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+
+
+}
+.export2{
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.qo {
+    background-color: rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 15px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.qo2 {
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.kk{
+    background-color: rgba(18, 39, 135, 0.647);
+    text-align: center;
+    margin-top: 15px;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.kk2{
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.butonat{
+    background-color: rgba(251, 0, 0, 0.083);
+    text-align: center;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+    color: rgb(40, 38, 38);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.b1 {
+    background-color: rgb(59, 9, 223); 
+    color:white;
+    border: none;
+    width: 2cm;
+    height: 1cm;
+    font-size:large;
+    font-weight: bold;
+    position:absolute;
+    margin-left: 20px;
+    margin-top: 1500px;
+    text-align: center;
+    padding: 1.5px 12px;
+
+
+}
+.ruaj {
+    background-color: rgb(121, 183, 45); 
+    color: rgb(255, 253, 253); 
+    border: 2px solid #4CAF50;
+    width: 3cm;
+    height: 1cm;
+    font-size:large;
+    margin-top: auto;
+  
+  }
+  
+  .ruaj:hover {
+    background-color: #106c13;
+    color: white;
+   
+    
+  }
+  
+
+
+.b2 {
+    
+    background-color: rgb(121, 183, 45); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #4CAF50;
+    width: 3cm;
+    height: 1cm;
+    font-size:large;
+    margin-top: auto;
+    
+      }
+      
+      .b2:hover {
+        background-color: #106c13;
+        color: white;
+        
+      }
+.b3  {
+    background-color: rgb(121, 183, 45); 
+    color: rgb(255, 253, 253); 
+    border: 2px solid #4CAF50;
+    width: 5cm;
+    height: 1cm;
+    font-size:large;
+    margin-top: auto;
+  }
+  
+  .b3:hover {
+    background-color: #106c13;
+    color: white;
+    
+  }
+
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="home.css">
+
+</head>
+<form action="home.php"  method="post">  
+<body>
+<div class="main">
+      <div class="kreu">
+    <h1>AGJENCIA E USHQIMIT DHE VETERINARISË</h1>
+    <h2>Inspektorati Veterinar</h2>
+    <h2>Raporti i punës</h2>
+    </div>
+    <div class="username">
+      <div class="b1"
+    <?php echo $_SESSION['username']; ?>
+         <a href = "logout.php">Mbyll</a>
+    </div>
+</div>
+    
+
+  <div class="a">
+    <p>Të dhënat e përgjithshme</p>
+  </div>
+  
+  <div class="home">
+   <div class="input_field">
+    <p>Numri i procesverbalit</p>
+    <input type="text" name="np" class="input" required="">
+  </div>
+  <div class="input_field">
+   <p>Data e inspektimit
+   <input type="datetime-local" id="dt" name="dt" required="" class="input">
+  </div>
+  <div class="input_field">
+   <p>Lloji i subjektit të inspektuar
+   <input type="text" name="llsi" class="input" required="">
+   </div>
+   <div class="input_field">
+     <p>NUI</p>
+    <input type="text" name="nui" class="input" required="">
+     </div> 
+     <div class="input_field">
+    <p>Emri i Subjektit
+    <input type="text" name="es" class="input" required="">
+    </div> 
+    <div class="input_field">
+    <p>Adresa e Subjektit
+    <input type="text" name="ad" class="input" required=""> 
+    </div>
+    <div class="input_field">
+    <p>Qellimi i inspektimit.
+    <input type="text"  name="qi" class="input" required="">
+     </div>
+  </div>
+   <div class="mm">
+    <p>Marrja e mostrave</p>
+</div>
+  <div class="mostra">   
+<div class="input2">
+     <p>Lloji i mostres</p>
+     <Input type="text" name="llm" class="input2">
+</div>
+<div class="input2">     
+<p>Numri i mostrave të marrura<p>
+<Input type="text" name="nmm" class="input2"> 
+</div>
+<div class="input2">    
+     <p>Sasia e mostrave të marrura<p>
+     <Input type="text" name="smm" class="input2">
+     </div>
+     <div class="input2">    
+         <p>Analiza e kërkuar</p>
+
+  <Input type="text" name="ak" class="input2">
+     </div>
+ 
+  </div>
+
+ 
+    <div class="asgjesim">
+    <p>Asgjësim</p>
+    </div>
+    <div class="asgjesim2">
+    <div class="input3">
+    <p>Lloji i mallit që asgjësohet</p>
+    <Input type="text" name="llma" class="input3">
+    </div>
+      <div class="input3">
+   <p>Sasia e mallit që asgjësohen ose nr. i krerëve<p>
+      <Input type="number" name="smqa" class="input3">
+      </div>
+
+      <div class="input3">
+   <p>Vendi i asgjësimit</p>
+    <Input type="text" name="va" class="input3">
+      </div>
+    </div>
+    <div class="fermat">
+   <p>Inspektim i fermave</p>
+    </div>
+    <div class="fermat2">
+    <div class="input4">
+   <p>Lloji i kafshëve të inspektuara</p>
+    <Input type="text" name="llki" class="input4">
+    </div>
+    <div class="input4">
+      <p>Numri i kafshëve të inspektuara</p>
+    <Input type="text" name="nki" class="input4">
+    </div>
+    <div class="input4">
+      <p>Veprimi i marrur</p>
+    <Input type="text" name="vm" class="input4">
+    </div>
+    </div>
+  <div class="th">    
+ 
+ <p>Inspektimi i kafshëve për therrje (nr. i kafshëve të therrura)</p>
+  </div>
+  <div class="th2">
+  <div class="input5">
+ <Input type="number" name="nkth" class="input5">
+  </div>
+</div>
+
+<div class="export">
+  <p>Eksport</p>
+</div>
+
+<div class="export2">
+  <div class="input6">
+  <p>Lloji i mallit që eksportohet</p>
+  <Input type="text" name="llme" class="input6">
+  </div>
+  <div class="input6">
+    <p>Sasia e mallit të eksportuar (Bruto)</p>
+    <Input type="number" name="sme" class="input6">
+  </div>
+  <div class="input6">
+<p>Nr. i CVE</p>
+<Input type="text"name="cve" class="input6">
+  </div>
+  <div class="input6">
+ <p>Vendi Importues</p>
+<Input type="text"name="vi" class="input6">
+  </div>
+
+</div>
+<div class="qo">   
+<p>Çertifikata e origjinës</p>
+</div>
+<div class="qo2">
+  <div class="input7">  
+<p>Lloji i mallit</p>
+<Input type="text" name="llmo" class="input7">
+  </div>
+  <div class="input7">
+  <p>Sasia e mallit</p>
+  <Input type="number" name="smo" class="input7">
+</div>
+<div class="input7">
+<p>Nr. i CVE</p>
+<Input type="text"name="cveo" class="input7">
+</div>
+<div class="input7">
+<p>Vendi i destinimit</p>
+<Input type="text"name="vd" class="input7">
+</div>
+</div>
+<div class="kk">
+  <p>Kafshë të dyshuara në kontrabandë</p>
+</div>
+<div class="kk2">
+<div class="input9">
+<p>Lloji i kafshëve</p>
+<Input type="text" name="llkk" class="input9">
+</div>
+<div class="input10">
+ <p>Nr. i kafshëve</p>
+<Input type="text"name="nkk" class="input10">
+</div>
+</div>
+
+
+<div class="butonat">
+<div class="ruaj">
+<button type = "submit" name ="submit" class="ruaj">Ruaj</button> 
+</div>
+
+
+<div class="b2">
+<a href="kerko.php">Kërko</a>
+</div>
+
+<div class="b3">
+  <p>Kerko mes datave të caktuara</p>
+  <a href="kerkod.php">Kërko</a>
+  </div>
+     
+</div>  
+</div> 
+  
+
+</body>
+</html>
+
